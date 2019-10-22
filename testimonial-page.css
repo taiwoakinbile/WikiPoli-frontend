@@ -38,4 +38,9 @@
 .active {
     border-radius: 0%;
     padding: 0 30px;
+    background-color: #213dcd;
+}
+
+.button a {
+    color: white!important;
 }
