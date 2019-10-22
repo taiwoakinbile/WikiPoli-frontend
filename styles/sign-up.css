@@ -13,7 +13,8 @@
 .signup_form input{
     height: 60px;
     width: 456px;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+        border: 1px solid #213DCD;
 }
 .footer_box{
 height: 398px;
