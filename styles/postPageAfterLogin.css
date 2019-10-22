@@ -27,3 +27,13 @@ body{
     background-color: rgba(33, 60, 220, 0.08);
     border:1px solid rgba(33, 60, 220, 0.08);
 }
+.mag img, .mag p{
+    display: inline;
+    height:20px;
+}
+.imag{
+    line-height: 3rem;
+}
+.imag img{
+    height:20px;
+}
