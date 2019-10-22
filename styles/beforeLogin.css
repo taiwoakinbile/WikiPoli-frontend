@@ -11,17 +11,19 @@ body{
     color: #000000;
 }
 .navbar-brand {
-    margin-left: 2rem;
+    margin-left: 6rem;
 }
 #signup-bttn {
     border: 1px solid #213DCD;
     background-color: #213DCD;
     color: #fff;
     width: 8rem;
-    text-align: center;
     height: 2.6rem;
     margin-right: 2rem;
-
+    margin-top:-0.5rem;
+    padding-left:1.5rem;
+    padding:0 1.8rem;
+    font-size: 1.2rem;
 }
 .Login-btt {
     color: #213DCD;
@@ -55,7 +57,7 @@ body{
     width: 13rem
 }
 #read {
-    margin-left: 49rem;
+    margin-left: 36.5rem;
 }
 #read:active {
     text-underline-position: below;
@@ -66,13 +68,16 @@ body{
     fill: solid;
     margin-right: 4rem
 }
+.fela-dob{
+    font-size: 0.7rem;
+}
 p {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .img-fela{
     width: 100%;
-    height: 15rem;
+    height: 20rem;
 }
 
 .interactives{
@@ -101,7 +106,12 @@ p {
     height: 5rem;
 
 }
-
+@media only screen and(max-width:670px){
+    
+    .top-nav{
+        width:50px;
+    }
+}
 
 
 /* Ends here */
