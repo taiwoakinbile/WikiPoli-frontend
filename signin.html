@@ -21,9 +21,12 @@
         <div class="form-wrapper">
             <a href="#"><img  src="https://res.cloudinary.com/lissacinta/image/upload/v1571762111/wikiPoli5_8_iubdie.png" alt=""></a>
             <h2>Log In to Your WikiPoli Account</h2>
-            <form action="">
-                <input type="text" name="" id="" placeholder="Email/Username">
-                <input type="password" name="" id="password" placeholder="Password">
+            <form name="login" method="POST" action="" onsubmit="return validateForm()">
+                
+                <input type="text" name="username" id="mail" placeholder="Email/Username">
+                <span class="error"><p id="name_error"></p></span>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <span class="error"><p id="password_error"></p></span>
                 <div class="forg"><span>Forgot Password?</span></div>
                 <input type="submit" value="Log In" id="submit">
                 <p>Don't have an account? <a href="#">Sign Up</a></p>
@@ -64,5 +67,7 @@
         </div>
 
     </div>
+
+    <script src="scripts/signin.js"></script>
 </body>
 </html>
