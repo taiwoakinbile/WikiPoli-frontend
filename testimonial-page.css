@@ -1,0 +1,41 @@
+#comments .fa-quote-left {
+    font-size: 40px;
+    color: #213dcd;
+}
+
+#comments img {
+    max-width: 220px;
+}
+
+.navbar img {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.title1 {
+    color: #213dcd;
+}
+
+.sign-up {
+    background-color: #213dcd;
+    color: white;
+}
+
+.navbar ul li a {
+    margin: 0 20px;
+    /* font-family: Lato; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color: #213dcd;
+}
+
+.nav-link {
+    color: #213dcd !important;
+}
+
+.active {
+    border-radius: 0%;
+    padding: 0 30px;
+}
