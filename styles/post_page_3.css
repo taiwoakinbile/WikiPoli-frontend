@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif; 
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+div button{
+    border-radius: 0px !important;
+}
+div.reat{
+    margin-bottom: 20px;
+}
