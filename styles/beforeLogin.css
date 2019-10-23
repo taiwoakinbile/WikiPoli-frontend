@@ -117,8 +117,9 @@ body{
 
  /*--------part two begins-------------*/
  .img-fela{
-    width: 100%;
-    height: 15rem;
+    background-attachment: fixed !important;
+    border-radius: 10px;
+
 }
 
 .interactives{
