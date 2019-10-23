@@ -5,19 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>User</title>
-  <link rel="stylesheet" type="text/css" href="userprofile.css">
+ 
+  <link rel="stylesheet" type="text/css" href="styles/userprofile.css">
+  
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<
 
 </head>
 <body>
@@ -27,7 +23,7 @@
     <div class="nav">
       <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar">
         
- <div class="ml-4 logo"><h4>Wiki<span>Poli</span></h4></div>
+ <a class="ml-1" href="#"><img id="logo" src="https://res.cloudinary.com/fabianuzukwu/image/upload/v1571749198/c09e9odiqy2cvkosfubl.png" alt="logo"></a>
        
         
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -68,14 +64,14 @@
 
  <main class="container-fluid main-section">
   <section class="intro-section">
-      <div class="intro-section__form pt-5">
-      <form class="form-inline float-right">
+      <div class="intro-section__form mt-5 pt-5 mr-2">
+      <form class="form-inline float-right pt-4">
       
         <label for="email"></label>
        
         <input type="text" name="value" id="value" class="form-control no-border" placeholder="Enter Politician's name">
 
-        <button type="submit" class="form-control btn btn-primary submit" value="submit">Search</button> 
+        <button type="submit" class="form-control  btn btn-primary submit" value="submit">Search</button> 
       
     </form>
    </div>
@@ -84,7 +80,7 @@
      <p class="mb-0 john-doe">John Doe</p>
      <p class="pt">Joined February, 2008</p>
    </div>
-   <div class="intro-section__post  mt-5 pt-5">
+   <div class="intro-section__post  mt-5 pt-5 mr-1">
       <p class="float-right pt-5 mt-5">Create post<span class="pl-2"><i class="fa fa-plus" aria-hidden="true"></i></span></a></p>
      
           </div>
@@ -135,18 +131,18 @@
 </section>
 
 <section class=" container-fluid img-section mt-5">
-  <div>
+  <div class="pt-4 heading" >
    <h5>
       <span class="fa fa-star checked pl-3"></span>
       Favourites
    </h5>
    </div>
-   <div class="img-container mt-5">
+   <div class="img-container mt-5 mb-5 pb-5">
           
       <div>
        <img  src="https://res.cloudinary.com/nkechi-christabel/image/upload/c_scale,h_190,w_281/v1571752819/yrwoswyydymwlcjraa1d.jpg" alt="Fela Durotoye">
       </div>
-          <div class="img__text pl-5 pt-5">Fela DUROTOYE
+          <div class="img__text pl-5 pt-5">Fela Durotoye
         </div>
       <div>
           <img class="favourite-img" src="https://res.cloudinary.com/nkechi-christabel/image/upload/c_scale,h_190,w_281/v1571752819/yrwoswyydymwlcjraa1d.jpg" alt="Fela Durotoye">
@@ -164,7 +160,7 @@
       <div>
         <img src="https://res.cloudinary.com/nkechi-christabel/image/upload/c_scale,h_190,w_281/v1571752819/yrwoswyydymwlcjraa1d.jpg" alt="Fela Durotoye">
        </div>
-           <div class="img__text pl-5 pt-5">Fela DUROTOYE
+           <div class="img__text pl-5 pt-5">Fela Durotoye
          </div>
        <div>
            <img class="favourite-img__two" src="https://res.cloudinary.com/nkechi-christabel/image/upload/c_scale,h_190,w_281/v1571752819/yrwoswyydymwlcjraa1d.jpg" alt="Fela Durotoye">
@@ -179,29 +175,23 @@
 </section>
 </main>
 
-<footer class="pb-3">
-   <div class="container-fluid clearfix ">
-    <ul class="footer__list">
+<div>
+<footer> 
+  <a class="footer_brand" href="#"><img src="https://res.cloudinary.com/fabianuzukwu/image/upload/v1571749198/c09e9odiqy2cvkosfubl.png" alt=""></a>
+  <ul class="footer_elements"> 
 
-        <li class="pr-5 pl-3  pt-3 float-left">
-            <a class="" href="#"><h4>Wiki<span>Poli</span></h4></a>
-          </li>
-
-      <li class="pr-5 pt-3 float-right">
-        <a class="" href="#">Contact WikiPoli</a>
-      </li>
-     
-      <li class="pr-4  pt-3 float-right">
-        <a class="" href="#">About WikiPoli</a>
-      </li> 
-      
-      <li class="pr-5  pt-3 float-right">
-        <a class="" href="#">Privacy policy</a>
-      </li>
-    
-    </ul>
-  </div>  
+                      <li ><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">About WikiPoli</a></li>
+                      <li><a href="#">Contact WikiPoli</a></li>
+  </ul>
 </footer>
+</div>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
