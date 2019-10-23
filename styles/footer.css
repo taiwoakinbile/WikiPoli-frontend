@@ -44,27 +44,26 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-    .footer {
-        height: auto;
-        background: rgba(33, 60, 220, 0.1);
-        overflow: hidden;
-
+    footer {
+        height: 200px;
     }
 
     .footer-list{
         display: flex;
         flex-direction: column;
-        right: 15%;
-        transform: translate(-35%, 0%);
+        right: 25%;
+        transform: translate(-20%, 0%);
         height: auto;
         text-align: center;       
-        background: rgba(33, 60, 220, 0.1);
-
     }
 
     .footer-nav{
-        background: rgba(33, 60, 220, 0.1);
         width: 100%;
         
     }
+
+    .footer-list li{
+        margin: 10px 0px;
+         
+     }
 }
