@@ -199,11 +199,6 @@ margin: 0 0 0 2rem;
  margin: 0 2rem 1rem 0;
 }
 
-.img-container, .img-container__two, .heading {
-  margin: auto;
-  width: 70%;
-  
-}
 
 div.intro-section__name p{
  margin-top: -.6rem;
