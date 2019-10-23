@@ -43,7 +43,7 @@
 
 		aside {
 			width: 200px;
-			height: 100vh;
+			height: 124vh;
 			background-color: #e9edfa;
 		}
 
@@ -129,7 +129,8 @@
 		.search-btn {
 			background: #213dcd;
 			color: #fff;
-			margin-left: 2%;
+			padding-left: 10px;
+			
 		}
 
 		.activity-cta {
@@ -220,6 +221,33 @@
 			}
 		}
 
+		.input-icons i { 
+            position: absolute; 
+        } 
+          
+        .input-icons { 
+            width: 100%; 
+            margin-bottom: 5px; 
+
+        } 
+          
+        .icon { 
+            padding: 10px; 
+            color: gray; 
+            min-width: 50px; 
+            text-align: center; 
+        } 
+          
+        .input-field { 
+            width: 60%; 
+            padding: 5px;
+			padding-top: 5px; 
+			padding-bottom: 7px; 
+            text-align: center; 
+			
+        } 
+          
+        
 		@media screen and (min-width: 1152px) {
 			* {
 				font-size: 20px;
@@ -266,8 +294,8 @@
 				<div class="logo">
 					<h1>
 						<a href="">
-							<img src="https://res.cloudinary.com/yvehogan/image/upload/v1571741975/Vector_6_xtinij.png" alt="home logo">Wiki
-							<span>Poli</span>
+							<img src="https://res.cloudinary.com/yvehogan/image/upload/v1571741975/Vector_6_xtinij.png" alt="home logo">
+							<span><b>Wiki</b>Poli</span>
 						</a>
 					</h1>
 				</div>
@@ -284,12 +312,18 @@
 					<div class="search">
 						<div class="input-group flex-nowrap">
 							<div class="input-group-prepend">
-								<span class="input-group-text" id="addon-wrapping">
+								<!-- <span class="input-group-text" id="addon-wrapping">
 									<i class="fa fa-search"></i>
-								</span>
+								</span> -->
 							</div>
-							<input type="text" class="form-control" aria-label="Search" aria-describedby="addon-wrapping">
+							<div class="input-icons"> 
+								<i class="fa fa-search icon"> 
+							  </i> 
+								<input class="input-field" 
+									   type="text"> 
+							
 							<button class="btn search-btn">Search</button>
+							</div>
 						</div>
 					</div>
 				</div>
