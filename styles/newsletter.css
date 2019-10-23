@@ -108,6 +108,7 @@ left: 98%;
 
 #newsLetter{
   cursor:pointer;
+  margin-top:0px;
 }
 @media screen  and (max-width: 430px){
   .pop-modal-body{
