@@ -1,7 +1,10 @@
 const cacheName = 'version1';
 
 const cacheAssets = [
+  '/',
   'index.html',
+  'contact.html',
+  './styles/contact.css',
   './styles/index.css',
   './js/sw.js'
 ]
