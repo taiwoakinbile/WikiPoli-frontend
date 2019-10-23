@@ -10,6 +10,12 @@ body{
     line-height: 2.5rem;
     color: #000000
 }
+
+.btn-primary{
+    background-color: #213DCD !important;
+    color: white !important; 
+}
+
 .navbar-brand {
     margin-left: 5rem;
     width: 40px
@@ -22,11 +28,12 @@ body{
 }
 #login-bttn {
     color: #213DCD;
-    margin-right: 2rem
+    /* margin-right: 2rem */
 }
 #signup-bttn {
     color: #213DCD;
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
+
 }
 #signup-bttn {
     border: 1px solid;
@@ -51,6 +58,12 @@ body{
     list-style: none;
     display: flex;
 }
+
+.ul-nav{
+    position: relative;
+    left: 8rem;
+}
+
 @media screen and (max-width: 876px) {
     #nav-top{
       display: block;
@@ -60,6 +73,7 @@ body{
     margin-left: 5rem;
     font-size: 1.2rem
 }
+
 @media screen and (max-width: 876px) {
     #not-logged {
         margin-left: 0rem; 
@@ -79,7 +93,8 @@ body{
 #read {
     margin-left: 28rem;
     font-size: 1.2rem;
-    -webkit-text-fill-color: black;   
+    -webkit-text-fill-color: black;  
+    text-decoration: underline;
 }
 @media screen and (max-width: 876px) {
         #read {
@@ -91,30 +106,25 @@ body{
     padding: 1rem 2rem;
     fill: solid;
     margin-right: 2rem;
-
+}
 .fela-dob{
     font-size: 0.7rem;
 }
-
 .fela-content{
     font-size: 1rem;
     margin: 2rem
 }
 .poli-quali {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500
 }
 
 
  /*--------part two begins-------------*/
-p {
-    font-size: 1rem;
-}
 
-.img-fela{
-    width: 100%;
-    height: 20rem;
-
+ .img-fela{
+    background-attachment: fixed !important;
+    border-radius: 10px;
 }
 
 .interactives{
@@ -128,12 +138,13 @@ p {
 
     color: #000000;
 }
-
+.text-wrap {
+    font-size: 1rem;
+}
 .fa-heart{
     cursor: pointer;
     color: red
 }
-
 /*-------footer begins-----*/
 footer {
     background: rgba(33, 60, 220, 0.1);
@@ -141,6 +152,7 @@ footer {
     overflow: hidden;
     padding: 15px;
 }
+
 .footer_elements,
 .footer_brand {
     display:  flex;
@@ -153,6 +165,7 @@ footer {
 .footer_elements {
     width: auto;
 }
+
 .footer_elements li {
 
     font-weight:  bold;
