@@ -1,45 +1,68 @@
-body {font-family: Arial, Helvetica, sans-serif;}
 
 /* The pop-modal (background) */
 .pop-modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
   width: 100%; /* Full width */
-  height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   -webkit-animation-name: fadeIn; /* Fade in the background */
   -webkit-animation-duration: 0.4s;
   animation-name: fadeIn;
-  animation-duration: 0.4s
+  animation-duration: 1s
 }
 
 /* pop-modal Content */
 .pop-modal-content {
+  border-top:2px solid lightgrey;
+  z-index: 100;
   position: fixed;
   bottom: 0;
-  background-color: #fefefe;
+  background-color: white;
   width: 100%;
   -webkit-animation-name: slideIn;
   -webkit-animation-duration: 0.4s;
   animation-name: slideIn;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
 }
 
 /* The Close Button */
-.close {
-  color: white;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+.pop-close{
+  cursor: pointer;
+color: #aaaaaa;
+/* float: right; */
+font-size: 28px;
+font-weight: bold;
+position: relative;
+left: 98%;
+}
+@media screen  and (max-width: 1450px){
+  .pop-close{
+    left:97%;
+  }
+}
+@media screen  and (max-width: 800px){
+  .pop-close{
+    left:96%;
+  }
+}
+@media screen  and (max-width: 560px){
+  .pop-close{
+    left:95%;
+  }
+}
+@media screen  and (max-width: 425px){
+  .pop-close{
+    left:94%;
+  }
+}
+@media screen  and (max-width: 370px){
+  .pop-close{
+    left:92%;
+  }
 }
 
-.close:hover,
-.close:focus {
+
+.pop-close:hover,
+.pop-close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -55,12 +78,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 .pop-modal-body:hover{
     opacity: 0.5;
-}
-
-.pop-modal-footer {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
 }
 
 /* Add Animation */
@@ -92,6 +109,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 #newsLetter{
   cursor:pointer;
 }
+@media screen  and (max-width: 430px){
+  .pop-modal-body{
+    font-size:100%;
+  }
+}
 /* The Modal (background) */
 .news-modal {
   display: none; /* Hidden by default */
@@ -103,7 +125,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
@@ -125,6 +146,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* The Close Button */
 .news-close {
+  box-sizing: border-box;
   color: #aaaaaa;
   float: right;
   font-size: 28px;
