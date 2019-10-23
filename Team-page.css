@@ -11,6 +11,34 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
+.navbar img {
+    width: 150px;
+    margin-left: 50px;
+}
+.sign-up {
+    background-color: #213dcd;
+    color: white;
+}
+
+.navbar ul li a {
+    margin: 0 20px;
+    /* font-family: Lato; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color: #213dcd;
+}
+
+.nav-link {
+    color: #213dcd !important;
+}
+
+.active {
+    border-radius: 0%;
+    padding: 0 30px;
+    background-color: #213dcd;
+}
 .heading{
 	font-size: 3.5rem;
 	letter-spacing: 3px;
