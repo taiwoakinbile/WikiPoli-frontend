@@ -33,7 +33,7 @@
     color: #7E7E7E;
 }
 input[name='sign-up'], input[name='log-in'] {
-    background-color: #213DCD;
+    background-color: #213DCD !important;
     font-size: 20px;
     color: white;
     font-weight: 700;
@@ -42,7 +42,7 @@ input[name='sign-up'], input[name='log-in'] {
 .footer_box {
     height: 398px;
     color: #fff;
-    background-color: #213DCD;
+    background-color: #213DCD !important;
 }
 
 .footer_box a {
@@ -65,6 +65,7 @@ input[name='sign-up'], input[name='log-in'] {
     padding-left: 6vw;
     padding-right: 6vw;
 }
+
 
 @media (max-width:1000px) {
     .aside_img_box {
