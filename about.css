@@ -37,6 +37,22 @@ p{
     text-align: center;
 }
 
+.btn{
+    width:100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #213dcd;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    margin-bottom: 15px;
+    transition: .3s;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #213dcd;
+}
+
 .navbar-toggler { border-color: #213dcd; }
 
 img#side{
@@ -70,14 +86,56 @@ nav li {
   /* border-bottom: 2px solid yellow; */
 }
 
+.navbar-nav li:last-child{
+    margin-right: 30px;
+  }
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
 	color: #213dcd !important;
 }
 
+.btn-primary {
+    background-color : #213DCD !important;
+    border-radius: 0px;
+  }
+
 .navbar-light{
   background-color: #fff;
 }
+
+#logo {
+    height: 80px;
+    width: auto;
+    /* float: left; */
+    margin-top: 5px;
+    margin-left: 25px;
+    padding: auto;
+  
+  }
+
+  #menu {
+	width: 40%;
+	margin-right: 10px;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	align-self: center;
+}
+
+#menu li a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	margin: 0 15px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#menu li a:hover {
+	color: #213dcd;
+}
+
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=' #008000 ' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -190,6 +248,13 @@ footer {
 
 }
 
+@media (max-width:600px){
+    .content-box{
+    float:none;
+    text-align:center;
+    display:block}
+    }
+
 @media all and (max-width:1000px){
     img#main{
         display: none;
@@ -225,5 +290,4 @@ footer {
         padding-inline-start:  0px;
         justify-content: flex-end;
     }
-
 }
