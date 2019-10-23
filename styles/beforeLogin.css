@@ -91,10 +91,11 @@ body{
     padding: 1rem 2rem;
     fill: solid;
     margin-right: 2rem;
-}
+
 .fela-dob{
     font-size: 0.7rem;
 }
+
 .fela-content{
     font-size: 1rem;
     margin: 2rem
@@ -106,9 +107,14 @@ body{
 
 
  /*--------part two begins-------------*/
+p {
+    font-size: 1rem;
+}
+
 .img-fela{
     width: 100%;
-    height: 15rem;
+    height: 20rem;
+
 }
 
 .interactives{
@@ -127,6 +133,7 @@ body{
     cursor: pointer;
     color: red
 }
+
 /*-------footer begins-----*/
 footer {
     background: rgba(33, 60, 220, 0.1);
@@ -185,9 +192,4 @@ footer {
     padding-inline-start:  0px;
     justify-content: flex-end;
     }
-
-}
-
-
-/* Ends here */
 
