@@ -43,8 +43,7 @@
                             class="form-control signin-input" />
                     </div>
 
-
-                    <input type="submit" name="log-in" value="Log In" class="btn my-4" onclick="validation()"/>
+                    <input type="submit" id="submitter" name="log-in" value="Log In" class="btn my-4" />
                 </form>
                                             <div id="eresult"></div>
 
@@ -91,24 +90,8 @@
 
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript">
-        var validation = function(){
-        var email = document.getElementById('email').value;
-        var password = document.getElementById('password').value;
-
-        if (email == '' && password == '')
-            {
-           alert('All Fields Required') 
-
-                }
-
-            console.log(email);
-
-     }
-        
-    </script>
-
 
 </body>
 
 </html>
+<script type="text/javascript" src="scripts/login.js"></script>
