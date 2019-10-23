@@ -10,10 +10,12 @@ body{
     line-height: 2.5rem;
     color: #000000
 }
+
 .btn-primary{
     background-color: #213DCD !important;
     color: white !important; 
 }
+
 .navbar-brand {
     margin-left: 5rem;
     width: 40px
@@ -31,6 +33,7 @@ body{
 #signup-bttn {
     color: #213DCD;
     /* margin-right: 10rem; */
+
 }
 #signup-bttn {
     border: 1px solid;
@@ -55,10 +58,12 @@ body{
     list-style: none;
     display: flex;
 }
+
 .ul-nav{
     position: relative;
     left: 8rem;
 }
+
 @media screen and (max-width: 876px) {
     #nav-top{
       display: block;
@@ -116,10 +121,10 @@ body{
 
 
  /*--------part two begins-------------*/
+
  .img-fela{
     background-attachment: fixed !important;
     border-radius: 10px;
-
 }
 
 .interactives{
@@ -147,6 +152,7 @@ footer {
     overflow: hidden;
     padding: 15px;
 }
+
 .footer_elements,
 .footer_brand {
     display:  flex;
@@ -159,6 +165,7 @@ footer {
 .footer_elements {
     width: auto;
 }
+
 .footer_elements li {
 
     font-weight:  bold;
@@ -198,9 +205,4 @@ footer {
     padding-inline-start:  0px;
     justify-content: flex-end;
     }
-
-}
-
-
-/* Ends here */
 
