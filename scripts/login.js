@@ -1,5 +1,3 @@
-document.getElementById("err-msg").style.display = "none"
-
 document.getElementById("submitter").addEventListener("click", e =>
 {
 	e.preventDefault();
