@@ -11,5 +11,5 @@ document.getElementById("submitter").addEventListener("click", e =>
 	if (email === "admin@gmail.com" && password === "123123")
 		location.href = "admin-dashboard-general.html";
 	else
-
+		alert("Bad password!")
 });
