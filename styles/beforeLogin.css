@@ -92,7 +92,9 @@ body{
     fill: solid;
     margin-right: 2rem;
 }
-
+.fela-dob{
+    font-size: 0.7rem;
+}
 .fela-content{
     font-size: 1rem;
     margin: 2rem
