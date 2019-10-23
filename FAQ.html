@@ -14,76 +14,68 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">
-            <a href="index.html"><img src="https://res.cloudinary.com/fabianuzukwu/image/upload/v1571749198/c09e9odiqy2cvkosfubl.png"
-                    style="width: 110px;" alt="logo">
-            </a>
-        </div>
-        <div class="topnav" id="myTopnav">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img
-                    src="https://res.cloudinary.com/siyfa/image/upload/v1568922461/ovqrbsa6t7nhghflejve.png"
-                    style="width: 30px;">
-            </a>
-        </div>
-    </div>
-    <script>
-        function myFunct
-         function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-    <div class="container">
-    <h2>Frequently Asked Questions</h2>
-<div class="panel-group" id="fr">
-<div class="space10"></div>
- <div class="space10"></div>
-  <div class="space10"></div>
-<div class="side-segment">
-    <h3>Login and Registration Issues</h3>
-</div>
-<div class="container">
-      <div class="card">
-        <div class="card-header">
-          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+  <header>
+        <nav class="navbar navbar-expand-lg navbar-custom bg-custom">
+            <div class="container">
+              <a href="index.html" class="logo"><img src="https://res.cloudinary.com/fabianuzukwu/image/upload/v1571749198/c09e9odiqy2cvkosfubl.png"alt="logo" class="img-fluid" width="150px;"></a>
+              <button class="navbar-toggler float-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbar9" style="color: #000000;">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse" id="navbar9">
+                <ul class="navbar-nav ml-auto"> 
+                  <li class="navbar-item mr-5">
+                    <a href="#" class="navbar-link" style="color: black;" id="logIn">Log In</a>
+                  </li>
+                  <li class="navbar-item mr-5">
+                    <a href="#" class="btn navbar-link" id="signUp" style="background-color: #0000FF;">Sign Up</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      <section> 
+          <div class="container"> 
+<h2>Frequently Asked Questions</h2>
+<br>
+<br>
+            <p>Login and Registration Issues</p>
+<div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
             Why do I need to Sign Up/Log In?
-          </a>
-        </div>
-        <div id="collapseOne" class="collapse show" data-parent="#accordion">
-          <div class="card-body">
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
             You may not have to, however, in order to post messages you must sign up/log in. Also, registration gives you access to additional features not available to guest users such as private messaging the administrator, subscription to latest news on this site, etc. It only takes a few moments to register so it is recommended you do so.
           </div>
+      </div>
+    </div>
+    <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            What is WikiPoli?
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+            It is a special type of website designed to make contribution on everything politics easy. Many people are constantly improving WikiPOLIS, making thousands of edits every minute.
+          </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+              I registered but cannot login!
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+              First, check your username and password. If they are correct, then one of two things may have happened. If you were sent an email, follow the instructions. If you did not receive an email, you may have provided an incorrect email address or the email may have been picked up by a spam filer. If you are sure the email address you provided is correct, try contacting an administrator.
+            </div>
         </div>
       </div>
-          <div class="card">
-            <div class="card-header">
-              <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-                  What is WikiPOLI?
-            </a>
-            </div>
-            <div id="collapseTwo" class="collapse" data-parent="#accordion">
-              <div class="card-body">
-                  It is a special type of website designed to make contribution on everything politics easy. Many people are constantly improving WikiPOLIS, making thousands of edits every minute.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-                  I registered but cannot login!
-              </a>
-            </div>
-            <div id="collapseThree" class="collapse" data-parent="#accordion">
-              <div class="card-body">
-                  First, check your username and password. If they are correct, then one of two things may have happened. If you were sent an email, follow the instructions. If you did not receive an email, you may have provided an incorrect email address or the email may have been picked up by a spam filer. If you are sure the email address you provided is correct, try contacting an administrator.
-              </div>
-            </div>
-          </div>
       <div class="card">
         <div class="card-header">
           <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
@@ -98,15 +90,13 @@
       </div>
     </div>
   </div>
+      </section>
+      <br>
+      <br>
+      <section>
+  <div class="container">
+            <p>Posting Issues</p>
 
-    
-    <div class="space10"></div>
- <div class="space10"></div>
-  <div class="space10"></div>
-<div class="side-segment">
-<h3>Posting Issues</h3>
-</div>
-<div id="accordion">
     <div class="card">
       <div class="card-header">
         <a class="card-link" data-toggle="collapse" href="#collapseOne">
@@ -119,15 +109,12 @@
         </div>
       </div>
     </div>
-  
-
-<div class="space10"></div>
-<div class="space10"></div>
- <div class="space10"></div>
-<div class="side-segment">
-<h3>National Ploitics</h3>
-</div>
-<div class="container">
+  </section>
+  <br>
+  <br>
+<section>
+  <div class="container">
+            <p>Others</p>
       <div class="card">
         <div class="card-header">
           <a class="card-link" data-toggle="collapse" href="#collapseOne">
@@ -166,6 +153,9 @@
       </div>
     </div>
 </div>
+</section>
+<br>
+<br>
   <footer> 
     <a class="footer_brand" href="#"><img src="https://res.cloudinary.com/fabianuzukwu/image/upload/v1571749198/c09e9odiqy2cvkosfubl.png" alt=""></a>
     <ul class="footer_elements"> 
@@ -179,3 +169,4 @@
 </body>
 
 </html>
+
