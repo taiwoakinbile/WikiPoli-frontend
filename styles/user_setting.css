@@ -56,8 +56,8 @@ header {
 .navLinks {
 	padding: 0 15px;
 	font-size: 20px;
+	font-style: normal;
 	font-weight: 600;
-	font-style: normal; 
 }
 
 #headerButton {
@@ -204,6 +204,12 @@ header {
 	color: #213DCD;
 }
 
+.fa-toggle-off {
+	font-size: 35px;
+	color: #213DCD;
+	display: none;
+}
+
 .doneButton {
 	display: flex;
 	justify-content: flex-end;
@@ -291,7 +297,7 @@ header {
 
 .edit span {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	width: 20%;
 }
 
@@ -365,6 +371,7 @@ a:hover, button:hover {
 	#nav {
 		width: 65%;
 	}
+}
 
 @media screen and (max-width: 800px) {
 	header {
@@ -464,7 +471,7 @@ a:hover, button:hover {
 	}
 
 	#viewSettingsContent button {
-        width: 80px;
+                width: 80px;
 		font-size: 14px;
 		padding: 2px;
     }
@@ -546,10 +553,6 @@ a:hover, button:hover {
 	.edits span {
 		font-size: 14px;
 		width: 40%;
-	}
-
-	.edit span {
-
 	}
 
 	.rightInnerWrapper p {
