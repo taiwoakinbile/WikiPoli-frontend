@@ -6,52 +6,52 @@
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WikiPoli | Sign In</title>
-    <link rel="stylesheet" type="text/css"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/fabianuzukwu/image/upload/v1571749198/c09e9odiqy2cvkosfubl.png" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/56f496c8ed.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/sign.css">
+    <link rel="stylesheet" href="styles/signin.css">
 </head>
 
 <body>
 
-    <main class="row register_container main">
-        <section class="aside_img_box col-12 col-lg-6 py-5">
+    <div class="main">
+        <div class="img-wrapper">
+            <img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1571736661/Group_18_sfpvd7.png">
+        </div>
 
-        </section>
-        <section class="aside_content col-12 col-lg-6 px-5 d-flex flex-column align-items-center">
-            <div>
-                <img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1571736654/wikiPoli5_8_yrgvwn.png"
-                    alt="" />
-            </div>
-            <div>
-                <h2>Log In to your WikiPoli Account</h2>
-            </div>
-            <div>
-                <form class="login_form" action="#" method="post">
-                    <p></p>
+        <div class="form-wrapper">
+            <img src="https://res.cloudinary.com/fabianuzukwu/image/upload/v1571749198/c09e9odiqy2cvkosfubl.png">
 
-                    <div class="form-group">
-                        <input id="email" name="email" type="email" placeholder="Your email address" required
-                            class="form-control signin-input" />
-                    </div>
+            <form class="login_form" action="#" method="post">
+            <h3>Log In to Your WikiPoli Account</h3>
 
-                    <div class="form-group">
-                        <input  id="password" name="password" type="password" placeholder="Your Password" required
-                            class="form-control signin-input" />
-                    </div>
+                <div class="form-group">
+                    <input id="email" name="email" type="email" placeholder="Your Email Address" required
+                        class="form-control signin-input" />
+                </div>
 
-                    <input type="submit" name="log-in" value="Log In" class="btn my-4" onclick="validation()"/>
-                </form>
-                                            <div id="eresult"></div>
+                <div class="form-group">
+                    <input id="password" name="password" type="password" placeholder="Your Password" required
+                        class="form-control signin-input" />
+                </div>
+            
+                <input type="submit" value="Log In" id="submit" onclick="validation()">
 
-                <p class="text-center">
-                    Don't have an account? <a href="signup.html">Sign up</a>
-                </p>
-            </div>
-        </section>
-    </main>
-    <footer class="footer_box d-flex flex-column aligns-items-center">
+                <div class="forg">
+                    <p class="forg"><a href="">Forgot Password?</a></p>
+                </div>
+                
+            </form>
+            <div id="eresult"></div>
+
+            <p class="text-center">
+                Don't have an account? <a href="signup.html">Sign up</a>
+            </p>
+        </div>
+    </div>
+   
+   <!-- <footer class="footer_box d-flex flex-column aligns-items-center">
         <div class="container">
             <section class="footer_link d-flex justify-content-between pt-5">
                 <div class="d-flex flex-column text-center">
@@ -81,7 +81,8 @@
                 &copy; 2019 WikiPoli. All Rights Reserved
             </section>
         </div>
-    </footer>
+    </footer> -->
+
     <script src="ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
