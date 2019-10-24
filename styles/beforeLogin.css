@@ -154,7 +154,7 @@ body{
 }
 .fa-heart{
     cursor: pointer;
-    color: red
+    color: black;
 }
 /*-------footer begins-----*/
 footer {
