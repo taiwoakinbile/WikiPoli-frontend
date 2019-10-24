@@ -56,6 +56,7 @@ body{
     text-align: center;
     height: 2.5rem;
     margin-right: 1rem;
+
 }
 #nav-top {
     list-style: none;
@@ -66,9 +67,7 @@ body{
     position: relative;
     left: 8rem;
 }
-.schools{
-    line-height: 20px;
-}
+
 
 @media screen and (max-width: 876px) {
     #nav-top{
@@ -97,7 +96,7 @@ body{
     }
 }
 #read {
-    margin-left: 28rem;
+    margin-left: 35rem;
     font-size: 1.2rem;
     -webkit-text-fill-color: black;  
     /*text-decoration: underline;
