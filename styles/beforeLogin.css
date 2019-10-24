@@ -33,13 +33,13 @@ body{
     /* margin-right: 2rem */
 }
 #signup-bttn {
-    color: #6D9BF1;
+    color: #213DCD;
     /* margin-right: 10rem; */
 
 }
 #signup-bttn {
     border: 1px solid;
-    background-color: #6D9BF1;
+    background-color: #213DCD;
     color: #fff;
     width: 8rem;
     text-align: center;
@@ -96,7 +96,7 @@ body{
     }
 }
 #read {
-    margin-left: 35rem;
+    margin-left: 28rem;
     font-size: 1.2rem;
     -webkit-text-fill-color: black;  
     /*text-decoration: underline;
@@ -158,21 +158,42 @@ body{
 }
 /*-------footer begins-----*/
 footer {
-    background: #000000;
+    background: rgba(33, 60, 220, 0.1);
     margin: auto;
     overflow: hidden;
-    color: #fff;
-    position: relative;
-    top: 10rem;
     padding: 15px;
 }
 
-footer h4{
-    font-size: 1.5rem !important;
+.footer_elements,
+.footer_brand {
+    display:  flex;
+    flex-direction: column;
+    padding-inline-start:  0px;
+    align-items: center;
+    margin: 0 0 0 0;
+
+}
+.footer_elements {
+    width: auto;
 }
 
-.copyright{
-    font-size: 0.75rem ;
+.footer_elements li {
+
+    font-weight:  bold;
+    font-size: 18px;
+    display: inline-block;
+    padding:  5px;      
+    width: fit-content;
+}
+.footer_elements li  a {
+    text-decoration: none;
+    color: black;
+}
+.footer_brand  img {
+    height:  80px;
+    width: 100px;
+    vertical-align: middle;
+
 }
 @media screen  and (min-width: 600px){
     .footer_brand {
